@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>North Korean Food</title>
+  <style>
+   body { margin: 0; font-family: Garamond, serif; background: linear-gradient(to bottom, #fafafa, #f0e6e6); color: #333; }
+    header { background: linear-gradient(#024fa2, #ed1c27); color: white; padding: 60px;  }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    .dish { margin: 30px auto; padding: 20px; text-align: center; }
+    .dish img { width: 250px; height: 200px; object-fit: cover; border-radius: 6px; }
+    .dish h2 { color: #024fa2; }
+    .footer { background: linear-gradient (#024fa2, #ed1c27); color: white; text-align: center; padding: 15px; margin-top: 20px; }
+nav {
+    float:left;
+   
+    }
+   
+    nav a::before {
+    content:'';
+    display:block;
+    height:4px;
+    position:absolute;
+    top:0;left:0;width:0%;
+    transition:all ease-in-out 0.2s;
+    }
+    nav a:hover ::before{width:100%;}
+    nav ul li {
+    list-style-type:none;
+    display:inline-block;
+    }
+    nav ul li a {
+    text-decoration:none;
+    color:white;
+    font-size:20px;
+    margin:20px;
+    text-transform:uppercase;
+    position:relative;
+    }
+    nav ul li a:hover {
+    color:black;
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Traditional North Korean Cuisine</h1>
+  <nav>
+    <ul>
+    <li>
+      <a href="index.html">Home</a></li>
+      <li><a href="destinations.html">Destinations</a></li>
+      <li><a href="food.html">Food</a></li>
+     <li><a href="hotels.html">Hotels</a></li>
+     </ul>
+    </nav>
+  </header>
+
+  <div class="dish">
+    <h2>Mandu</h2>
+    <img src="https://th.bing.com/th/id/OSK.5230e336554dd54b9fc61cb231166120?w=88&h=88&c=7&rs=1&o=6&dpr=1.3&pid=SANGAM" >
+    <p>Soft dumplings filled with meat or vegetables, often shared during family gatherings and celebrations.</p>
+  </div>
+
+  <div class="dish">
+    <h2>Bulgogi</h2>
+    <img src="https://th.bing.com/th/id/OIP.LJnwWP5e8hXHGFz6wPrOPgAAAA?w=200&h=200&c=10&o=6&dpr=1.3&pid=genserp&rm=2">
+    <p>Marinated beef grilled to perfection. A dish that combines savory flavors with a touch of sweetness.</p>
+  </div>
+
+  <div class="dish">
+    <h2>Naengmyeon</h2>
+    <img src="https://www.maangchi.com/wp-content/uploads/2008/06/mul-naengmyeon.jpg">
